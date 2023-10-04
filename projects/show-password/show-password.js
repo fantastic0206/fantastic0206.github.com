@@ -1,8 +1,8 @@
 /*
  * show-password : A jQuery plugin to change a password field to a regular text input field and vice versa
- * http://github.com/mtodd/show-password/
+ * http://github.com/fantastic0206/show-password/
  *
- * Copyright (C) 2009 Matt Todd
+ * Copyright (C) 2009 FantasyPiggy
  * Licensed under the MIT licenses.
  */
 

@@ -4,13 +4,13 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   
-  <title>Matt Todd</title>
-  <link href="http://mtodd.github.com/atom.xml" rel="self"/>
-  <link href="http://mtodd.github.com/"/>
+  <title>FantasyPiggy</title>
+  <link href="http://fantastic0206.github.com/atom.xml" rel="self"/>
+  <link href="http://fantastic0206.github.com/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>http://mtodd.github.com/</id>
+  <id>http://fantastic0206.github.com/</id>
   <author>
-    <name>Matt Todd</name>
+    <name>FantasyPiggy</name>
     <email>chiology@gmail.com</email>
   </author>
   

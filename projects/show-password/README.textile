@@ -39,7 +39,7 @@ h2. Usage
 
 h2. Demo
 
-http://mtodd.github.com/show-password/example.html
+http://fantastic0206.github.com/show-password/example.html
 
 h2. Requirements
 
@@ -49,7 +49,7 @@ h2. License
 
 show-password is licensed under the MIT License:
 
-Copyright (c) 2009 Matt Todd (http://maraby.org/)
+Copyright (c) 2009 FantasyPiggy (http://maraby.org/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

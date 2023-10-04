@@ -2,7 +2,7 @@
 
 // Constants
 
-var ReposToIgnore = [ 'mtodd.github.com',
+var ReposToIgnore = [ 'fantastic0206.github.com',
                       'empty-merb-app-with-authentication',
                       'base-authenticated-merb-app' ];
 
@@ -18,7 +18,7 @@ $(function(){ // Application onLoad
   
   // load repos
   try {
-    $.getJSON('http://github.com/api/v1/json/mtodd?callback=?', function(data) {
+    $.getJSON('http://github.com/api/v1/json/fantastic0206?callback=?', function(data) {
       $('#repos .content').html(''); // clear out "loading"
       
       // get repos (non-forks and sorted by popularity)
@@ -35,9 +35,9 @@ $(function(){ // Application onLoad
   }
   
   // load followers
-  // http://github.com/api/v2/json/user/show/mtodd/followers
+  // http://github.com/api/v2/json/user/show/fantastic0206/followers
   try {
-    $.getJSON('http://github.com/api/v2/json/user/show/mtodd/followers?callback=?', function(data) {
+    $.getJSON('http://github.com/api/v2/json/user/show/fantastic0206/followers?callback=?', function(data) {
       $('#followers .content').html(''); // clear out "loading"
       var followers = data.users;
       $.each(data.users, function(id, follower) {
