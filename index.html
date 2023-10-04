@@ -1,0 +1,47 @@
+---
+layout: default
+title: m+
+---
+<div id="left"><div class="padding">
+  
+  {% include header/left.html %}
+  
+  <div id="image">
+    <div id="leading_image">
+      <img id="the_leading_image" src="/images/me.jpg" border="0" />
+    </div>
+    <div id="leading_image_caption">
+      Matt Todd, a 24-year-old fuck-up postmodernist programmer artist whateverthehelliam
+    </div>
+  </div>
+  
+  {% include index/links.html %}
+  
+  {% include index/repos.html %}
+  
+  {% include index/followers.html %}
+  
+</div></div><!-- /left -->
+
+
+
+<div id="right"><div class="padding">
+  
+  {% include header/right.html %}
+  
+  <div id="posts">
+    <h2>Posts</h2>
+    <div class="content">
+      {% for post in site.posts %}
+        <div class="post">
+          <span>{{ post.date | date_to_string }}</span> &middot;
+          <a href="{{ post.url }}">{{ post.title }}</a> &middot;
+          {{ post.excerpt }}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+  {% include index/twitter.html %}
+  
+</div></div><!-- /right -->
